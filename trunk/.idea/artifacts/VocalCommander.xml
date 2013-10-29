@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact name="VocalCommander">
+    <output-path>$PROJECT_DIR$/out/artifacts/VocalCommander</output-path>
+    <root id="root">
+      <element id="module-output" name="VocalCommander" />
+      <element id="dir-copy" path="$PROJECT_DIR$/etc" />
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="sphinx4" />
+        <element id="library" level="project" name="xstream-1.4.2" />
+      </element>
+      <element id="directory" name="model">
+        <element id="dir-copy" path="$PROJECT_DIR$/model" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/config.xml" />
+      <element id="directory" name="image">
+        <element id="dir-copy" path="$PROJECT_DIR$/image" />
+      </element>
+    </root>
+  </artifact>
+</component>
