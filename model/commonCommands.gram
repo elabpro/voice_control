@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar commonCommands;
+
+<commandMode> = команды;
+<mouseMode> = мышь;
+<keyboardMode> = клавиатура;
+<lockMode> = блокировать;
+
+<help> = помощь;
+<exit> = завершить работу;

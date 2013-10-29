@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+grammar keyboardMode;
+
+import <commonCommands.*>;
+
+public <command> = <lockMode> | <commandMode> | <mouseMode> | <help> | <exit> | <keyboardMove> | <keyboardAction>;
+
+<keyboardMove> = вверх | вниз | влево | вправо;
+<keyboardAction> = нажать | отпустить | ввод | стереть;

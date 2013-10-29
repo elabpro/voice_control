@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar commandMode;
+
+import <commonCommands.*>;
+import <userCommands.*>;
+
+public <command> = <lockMode> | <mouseMode> | <keyboardMode> | <commands> | <help> | <exit>;
