@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+    <command>
+        <cause>вырезать</cause>
+        <effect class="ChainCommand">
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>PRESS</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>88</code>
+                <action>CLICK</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>RELEASE</action>
+            </effect>
+        </effect>
+    </command>
+    <command>
+        <cause>копировать</cause>
+        <effect class="ChainCommand">
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>PRESS</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>67</code>
+                <action>CLICK</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>RELEASE</action>
+            </effect>
+        </effect>
+    </command>
+    <command>
+        <cause>вставить</cause>
+        <effect class="ChainCommand">
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>PRESS</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>86</code>
+                <action>CLICK</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>RELEASE</action>
+            </effect>
+        </effect>
+    </command>
+    <command>
+        <cause>отмена</cause>
+        <effect class="ChainCommand">
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>PRESS</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>90</code>
+                <action>CLICK</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>17</code>
+                <action>RELEASE</action>
+            </effect>
+        </effect>
+    </command>
+    <command>
+        <cause>закрыть окно</cause>
+        <effect class="ChainCommand">
+            <effect class="KeyPressCommand">
+                <code>18</code>
+                <action>PRESS</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>115</code>
+                <action>CLICK</action>
+            </effect>
+            <effect class="KeyPressCommand">
+                <code>18</code>
+                <action>RELEASE</action>
+            </effect>
+        </effect>
+    </command>
+    <command>
+        <cause>согласиться</cause>
+        <effect class="KeyPressCommand">
+            <code>10</code>
+            <action>CLICK</action>
+        </effect>
+    </command>
+    <command>
+        <cause>отказаться</cause>
+        <effect class="KeyPressCommand">
+            <code>27</code>
+            <action>CLICK</action>
+        </effect>
+    </command>
+</commands>

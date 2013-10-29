@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+grammar mouseMode;
+
+import <commonCommands.*>;
+
+public <command> =  <lockMode> | <commandMode> | <mouseMode> | <keyboardMode> | <number> | назад | (нажать | отпустить) (левую | среднюю | правую) | левая | средняя | правая | дважды (левая | средняя | правая) | прокрутка (вверх | вниз) | <help> | <exit>;
+
+<number> = один | два | три | четыре | пять | шесть | семь | восемь | девять;

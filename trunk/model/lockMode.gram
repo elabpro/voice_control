@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+grammar lockMode;
+
+import <commonCommands.*>;
+
+public <command> = <unlock> | <help>;
+
+<unlock> = разблокировать;
